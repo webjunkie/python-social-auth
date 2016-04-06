@@ -12,6 +12,7 @@ class ItembaseOAuth2(BaseOAuth2):
     USER_DETAILS_URL = 'https://users.itembase.com/v1/me'
     ACTIVATION_ENDPOINT = 'https://solutionservice.itembase.com/activate'
     DEFAULT_SCOPE = ['user.minimal']
+    STATE_PARAMETER = False
     EXTRA_DATA = [
         ('access_token', 'access_token'),
         ('token_type', 'token_type'),
