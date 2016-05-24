@@ -29,6 +29,7 @@ class ItembaseOAuth2(BaseOAuth2):
         ('name_format', 'name_format'),
         ('locale', 'locale'),
         ('preferred_currency', 'preferred_currency'),
+        ('password_set', 'password_set'),
     ]
 
     def add_expires(self, data):
@@ -77,7 +78,7 @@ class ItembaseOAuth2(BaseOAuth2):
 
 class ItembaseOAuth2Sandbox(ItembaseOAuth2):
     name = 'itembase-sandbox'
-    AUTHORIZATION_URL = 'http://sandbox.accounts.itembase.io/oauth/v2/auth'
-    ACCESS_TOKEN_URL = 'http://sandbox.accounts.itembase.io/oauth/v2/token'
-    USER_DETAILS_URL = 'http://sandbox.users.itembase.io/v1/me'
-    ACTIVATION_ENDPOINT = 'http://sandbox.solutionservice.itembase.io/activate'
+    AUTHORIZATION_URL = 'https://sandbox.accounts.itembase.io/oauth/v2/auth'
+    ACCESS_TOKEN_URL = 'https://sandbox.accounts.itembase.io/oauth/v2/token'
+    USER_DETAILS_URL = 'https://sandbox.users.itembase.io/v1/me'
+    ACTIVATION_ENDPOINT = 'https://sandbox.solutionservice.itembase.io/activate'
