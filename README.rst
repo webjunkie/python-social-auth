@@ -56,6 +56,7 @@ or current ones extended):
     * Angel_ OAuth2
     * AOL_ OpenId http://www.aol.com/
     * Appsfuel_ OAuth2
+    * ArcGIS_ OAuth2
     * Behance_ OAuth2
     * BelgiumEIDOpenId_ OpenId https://www.e-contract.be/
     * Bitbucket_ OAuth1
@@ -71,7 +72,7 @@ or current ones extended):
     * Exacttarget OAuth2
     * Facebook_ OAuth2 and OAuth2 for Applications
     * Fedora_ OpenId http://fedoraproject.org/wiki/OpenID
-    * Fitbit_ OAuth1
+    * Fitbit_ OAuth2 and OAuth1
     * Flickr_ OAuth1
     * Foursquare_ OAuth2
     * `Google App Engine`_ Auth
@@ -94,10 +95,12 @@ or current ones extended):
     * `Moves app`_ OAuth2 https://dev.moves-app.com/docs/authentication
     * `Mozilla Persona`_
     * NaszaKlasa_ OAuth2
+    * `NGPVAN ActionID`_ OpenId
     * Odnoklassniki_ OAuth2 and Application Auth
     * OpenId_
     * OpenStreetMap_ OAuth1 http://wiki.openstreetmap.org/wiki/OAuth
     * OpenSuse_ OpenId http://en.opensuse.org/openSUSE:Connect
+    * Pinterest_ OAuth2
     * PixelPin_ OAuth2
     * Pocket_ OAuth2
     * Podio_ OAuth2
@@ -105,6 +108,7 @@ or current ones extended):
     * Readability_ OAuth1
     * Reddit_ OAuth2 https://github.com/reddit/reddit/wiki/OAuth2
     * Shopify_ OAuth2
+    * Sketchfab_ OAuth2
     * Skyrock_ OAuth1
     * Soundcloud_ OAuth2
     * Stackoverflow_ OAuth2
@@ -120,6 +124,7 @@ or current ones extended):
     * Twilio_ Auth
     * Twitter_ OAuth1
     * Uber_ OAuth2
+    * Untappd_ OAuth2
     * VK.com_ OpenAPI, OAuth2 and OAuth2 for Applications
     * Weibo_ OAuth2
     * Withings_ OAuth1
@@ -238,6 +243,7 @@ check `django-social-auth LICENSE`_ for details:
 .. _myOpenID: https://www.myopenid.com/
 .. _Angel: https://angel.co
 .. _Appsfuel: http://docs.appsfuel.com
+.. _ArcGIS: http://www.arcgis.com/
 .. _Behance: https://www.behance.net
 .. _Bitbucket: https://bitbucket.org
 .. _Box: https://www.box.com
@@ -269,10 +275,12 @@ check `django-social-auth LICENSE`_ for details:
 .. _Moves app: https://dev.moves-app.com/docs/
 .. _Mozilla Persona: http://www.mozilla.org/persona/
 .. _NaszaKlasa: https://developers.nk.pl/
+.. _NGPVAN ActionID: http://developers.ngpvan.com/action-id
 .. _Odnoklassniki: http://www.odnoklassniki.ru
 .. _Pocket: http://getpocket.com
 .. _Podio: https://podio.com
 .. _Shopify: http://shopify.com
+.. _Sketchfab: https://sketchfab.com/developers/oauth
 .. _Skyrock: https://skyrock.com
 .. _Soundcloud: https://soundcloud.com
 .. _Stocktwits: https://stocktwits.com
@@ -319,3 +327,5 @@ check `django-social-auth LICENSE`_ for details:
 .. _requests: http://docs.python-requests.org/en/latest/
 .. _PixelPin: http://pixelpin.co.uk
 .. _Zotero: http://www.zotero.org/
+.. _Pinterest: https://www.pinterest.com
+.. _Untappd: https://untappd.com/
